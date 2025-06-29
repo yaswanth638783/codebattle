@@ -1,0 +1,116 @@
+.scoreboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.no-battles {
+  text-align: center;
+  padding: 50px;
+  background: #2d3748;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.battle-list {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.battle-card {
+  background: #2d3748;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.battle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.battle-date {
+  color: #a0aec0;
+  font-size: 0.9rem;
+}
+
+.battle-details {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  color: #a0aec0;
+}
+
+.scoreboard {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.scoreboard th, .scoreboard td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #4a5568;
+}
+
+.scoreboard th {
+  background: #4a5568;
+}
+
+.scoreboard tr.current-user {
+  background: rgba(66, 153, 225, 0.2);
+}
+
+/* Add to your existing CSS files */
+.scoreboard {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.scoreboard th, .scoreboard td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.scoreboard th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.scoreboard tr.current-user {
+  background-color: #e6f7ff;
+  font-weight: bold;
+}
+
+.battle-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.battle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.battle-details {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.success-banner {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}

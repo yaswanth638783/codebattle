@@ -1,0 +1,71 @@
+.waiting-room-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.room-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.participants-section, .problems-section {
+  background: #2d3748;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.participants-list, .problems-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+.participants-list li, .problems-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #4a5568;
+  border-radius: 4px;
+}
+
+.participants-list li.creator {
+  background: #2c5282;
+  font-weight: bold;
+}
+
+.waiting-room-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn-secondary {
+  background: #e53e3e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-secondary:hover {
+  background: #c53030;
+}
+.warning-message {
+  color: #e53e3e;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.participants-list li.creator {
+  background: #2c5282;
+  font-weight: bold;
+}
+
+.participants-list li:has("(You)") {
+  border-left: 3px solid #48bb78;
+}
